@@ -1,0 +1,121 @@
+
+.marck-script-regular {
+  font-family: "Marck Script", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-regular {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body{ font-family: 'Montserrat';
+  font-weight: 100;
+  color: #002e7c;
+  font-style: normal;
+  font-size: 20px;
+}
+.name {
+  font-family: 'Marck Script';
+  font-weight: 400;
+  color: #ffffff;
+  font-style: normal;
+}
+  
+  .about{
+  display: flex;
+  font-size: 15px;
+  position: relative;
+}
+  
+.container{
+  max-width: 1024px;
+  line-height: 30px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: #010749;
+  
+
+}
+  
+.avatar{
+  border-radius: 50%;
+  box-shadow: 5px 5px 15px #ffffff;
+}
+  
+.change_color{
+  transition: all 1s ease-in-out;
+}
+  
+.change_color:hover{
+  color: #ffffff;
+}
+  
+table{
+  width: 100%;
+}
+  
+table tr:hover{
+  background-color:#4588fc;
+}
+  
+input:hover{
+  background-color: #f3f0c6;
+}
+
+a{
+  color: #002e7c;
+  font-size: 20px;
+}
+  
+a:active {
+  color: #005eff; /* Цвет активных ссылок */
+}
+  
+h1{
+  color: #ffffff;
+  font-family: 'Marck Script';
+  font-weight: 400;
+  font-style: normal;
+}
+h8{
+  color: #002e7c;
+  font-family: 'Marck Script';
+  font-size: 50px;
+  font-style: normal;
+}
+
+
+  
+ul{ text-align: center}
+  
+html{
+  background-color: #fffde0;
+  padding-left:30px;
+  padding-right:30px;
+  
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+  
+ .shlapa{
+  height:25px;
+  min-width: 100%;
+  position: relative;
+  box-shadow: 0px 0px 20px #8eb7ff;
+  text-align: justify;
+  margin-left: -5%; 
+  margin-right: -5%; 
+  display: flex; 
+  justify-content: space-evenly;
+  align-items: center; 
+  background-color: #ffffff;
+
+  }
+
+   .sh1{color:  #8eb7ff;}
+   .t1{  background-color: #ddff8e;}
+   .t2{  background-color: #8eb7ff;}
+   .t3{  background-color: #ffffff;}
